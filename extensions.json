@@ -53,5 +53,14 @@
     "creator": [
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
     ]
-  }
+  },
+{
+  "title": "Live Keyboard Input",
+  "img": null,
+  "description": "Get keyboard input from the user, as if they were typing in a textbox!",
+  "url": "extensions/golbo/LiveKeyboard.js",
+  "creator": [
+    {"name": "Golbo", "url": "https://ffghdfh.itch.io"}
+  ]
+}
 ]
