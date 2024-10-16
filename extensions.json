@@ -71,5 +71,14 @@
     "creator": [
       {"name": "golbo", "url": "https://ffghdfh.itch.io"}
   ]
+  },
+  {
+    "title": "IndexedDB",
+    "img": "images/golbo/indexedDB.png",
+    "description": "Save more than 5mb of data locally!",
+    "url": "extensions/golbo/IndexedDB.js",
+    "creator": [
+      {"name": "golbo", "url": "https://ffghdfh.itch.io"}
+  ]
   }
 ]
