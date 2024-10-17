@@ -66,7 +66,7 @@
   {
     "title": "URL Music extension",
     "img": null,
-    "description": "Play, pause, seek, set the volume and get data about songs from URL-s!".
+    "description": "Play, pause, seek, set the volume and get data about songs from URL-s!",
     "url": "extensions/golbo/URL_music.js",
     "creator": [
       {"name": "golbo", "url": "https://ffghdfh.itch.io"}
