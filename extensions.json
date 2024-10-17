@@ -53,5 +53,32 @@
     "creator": [
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
     ]
+  },
+  {
+  "title": "Live Keyboard Input",
+  "img": null,
+  "description": "Get keyboard input from the user, as if they were typing in a textbox!",
+  "url": "extensions/golbo/LiveKeyboard.js",
+  "creator": [
+    {"name": "golbo", "url": "https://ffghdfh.itch.io"}
+  ]
+  },
+  {
+    "title": "URL Music extension",
+    "img": null,
+    "description": "Play, pause, seek, set the volume and get data about songs from URL-s!".
+    "url": "extensions/golbo/URL_music.js",
+    "creator": [
+      {"name": "golbo", "url": "https://ffghdfh.itch.io"}
+  ]
+  },
+  {
+    "title": "IndexedDB",
+    "img": "images/golbo/indexedDB.png",
+    "description": "Save more than 5mb of data locally!",
+    "url": "extensions/golbo/IndexedDB.js",
+    "creator": [
+      {"name": "golbo", "url": "https://ffghdfh.itch.io"}
+  ]
   }
 ]
