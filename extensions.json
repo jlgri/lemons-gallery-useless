@@ -61,7 +61,7 @@
   "url": "extensions/golbo/LiveKeyboard.js",
   "creator": [
     {"name": "golbo", "url": "https://ffghdfh.itch.io"}
-  ]
+    ]
   },
   {
     "title": "URL Music extension",
@@ -70,7 +70,7 @@
     "url": "extensions/golbo/URL_music.js",
     "creator": [
       {"name": "golbo", "url": "https://ffghdfh.itch.io"}
-  ]
+    ]
   },
   {
     "title": "IndexedDB",
@@ -79,6 +79,6 @@
     "url": "extensions/golbo/IndexedDB.js",
     "creator": [
       {"name": "golbo", "url": "https://ffghdfh.itch.io"}
-  ]
+    ]
   }
 ]
