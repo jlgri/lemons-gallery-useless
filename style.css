@@ -30,7 +30,7 @@ body {
 
   box-shadow: 15px 15px 0px lightgray;
 
-  width: 400px;
+  width: 300px;
 
   display: block;
   align-items: center;
@@ -41,7 +41,7 @@ body {
 
 .extension img {
   border-radius: 15px;
-  width: 350px;
+  width: 250px;
   margin-top: 25px;
 }
 
