@@ -75,10 +75,6 @@ body {
 }
 
 #extensions {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  display: grid;
   grid-template-columns: auto auto auto;
 }
