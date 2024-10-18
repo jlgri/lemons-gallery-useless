@@ -74,6 +74,10 @@ body {
   background-color: red;
 }
 
+.extension-button[data-copy="download"] {
+  background-color: orange;
+}
+
 #extensions {
   display: grid;
   grid-template-columns: auto auto auto;
