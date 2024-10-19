@@ -128,7 +128,7 @@
     downloadBtn.addEventListener('click', async function() {
       const link = document.createElement('a');
       link.href = currentValue['url'];
-      link.download = `${(currentValue["title"]. toLowerCase()).replaceAll(' ', '-')}.js`;
+      link.download = `${(currentValue["title"]. toLowerCase()).replace(/[^a-zA-Z0-9]/g, '-')}.js`;
       document.body.appendChild(link)
       try {
         link.click();
