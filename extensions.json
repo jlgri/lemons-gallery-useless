@@ -4,6 +4,7 @@
     "img": null,
     "description": "An extension example",
     "url": "extensions/hello-world.js",
+    "docsURL": "#",
     "creator": [
       {"name": "GarboMuffin", "url": "https://scratch.mit.edu/users/GarboMuffin/"}
     ]
