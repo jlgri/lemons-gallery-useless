@@ -52,6 +52,18 @@
     extension.appendChild(img);
     extension.appendChild(title);
     extension.appendChild(description);
+    
+    if(currentValue["docsURL"]) {
+      const docsURL = document.createElement('a');
+    
+      docsURL.textContent = 'Documentation';
+     
+      docsURL.href = currentValue["docsURL"];
+      
+      docsURL.classList.add('docsBtn');
+    
+      extension.appendChild(docsURL);
+    }
 
     const creators = currentValue["creator"];
 
@@ -68,6 +80,7 @@
       extension.appendChild(document.createElement('br'));
       extension.appendChild(document.createElement('br'));
     })
+    
 
     extension.classList.add('extension');
 
@@ -123,7 +136,7 @@
         throw new Error('Failed to download file!');
       };
       link.remove();
-    })
+    });
 
     extension.appendChild(lineBreak);
 
