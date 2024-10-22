@@ -15,7 +15,7 @@ body {
   width: 1500px;
   height: 5000px;
   min-width: 1500px;
-  min-height: 2000px;
+  min-height: 500px;
   max-width: 1500px;
   max-height: 10000000px;
 }
