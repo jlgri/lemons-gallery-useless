@@ -13,10 +13,11 @@ body {
   text-align: center;
 
   width: 1500px;
-  height: auto;
+  height: 5000px;
   min-width: 1500px;
-  min-height: auto;
+  min-height: 5000px;
   max-width: 1500px;
+  max-height: 10000000px;
 }
 
 .extension {
@@ -74,6 +75,10 @@ body {
 }
 .extension-button[data-copy="download"] {
   background-color: orange;
+}
+
+.extension-button[data-copy="try"] {
+  background-color: skyblue;
 }
 
 .docsBtn {
