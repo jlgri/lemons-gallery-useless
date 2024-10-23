@@ -5,6 +5,7 @@
     "description": "An extension example",
     "url": "extensions/hello-world.js",
     "docsURL": "#",
+    "sandboxed": true,
     "creator": [
       {"name": "GarboMuffin", "url": "https://scratch.mit.edu/users/GarboMuffin/"}
     ]
@@ -14,6 +15,7 @@
     "img": "images/Bitter_130/SQLSnapFileshare.png",
     "description": "Port of the SQLSnap! Fileshare extension for cloud file share utilization.",
     "url": "extensions/Bitter_130/SQLSnapFileshare.js",
+    "sandboxed": true,
     "creator": [
       {"name": "Bitter_160", "url": "https://scratch.mit.edu/users/Bitter_160/"}
     ]
@@ -23,6 +25,7 @@
     "img": "images/Lemon/WeatherAPI.png",
     "description": "Get weather information of a place using the Weather API.",
     "url": "extensions/Lemon/WeatherAPI.js",
+    "sandboxed": false,
     "creator": [
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"},
       {"name": "0znzw", "url": "https://scratch.mit.edu/users/0znzw/"}
@@ -33,6 +36,7 @@
     "img": "images/Lemon/screenshot.png",
     "description": "Screenshot the entire page in one click.",
     "url": "extensions/Lemon/screenshot.js",
+    "sandboxed": false,
     "creator": [
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
     ]
@@ -42,6 +46,7 @@
     "img": "images/Lemon/autoclick_detect.png",
     "description": "Easily detect auto clickers.",
     "url": "extensions/Lemon/autoclick_detect.js",
+    "sandboxed": true,
     "creator": [
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
     ]
@@ -51,6 +56,7 @@
     "img": "images/Lemon/bluetooth.png",
     "description": "Allows you to send out bluetooth requests to nearby bluetooth devices.",
     "url": "extensions/Lemon/bluetooth.js",
+    "sandboxed": false,
     "creator": [
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
     ]
@@ -60,6 +66,7 @@
   "img": null,
   "description": "Get keyboard input from the user, as if they were typing in a textbox!",
   "url": "extensions/golbo/LiveKeyboard.js",
+  "sandboxed": true,
   "creator": [
     {"name": "golbo", "url": "https://ffghdfh.itch.io"}
     ]
@@ -69,6 +76,7 @@
     "img": null,
     "description": "Play, pause, seek, set the volume and get data about songs from URL-s!",
     "url": "extensions/golbo/URL_music.js",
+    "sandboxed": true,
     "creator": [
       {"name": "golbo", "url": "https://ffghdfh.itch.io"}
     ]
@@ -77,6 +85,7 @@
     "title": "IndexedDB",
     "img": "images/golbo/indexedDB.png",
     "description": "Save more than 5mb of data locally!",
+    "sandboxed": false,
     "url": "extensions/golbo/IndexedDB.js",
     "creator": [
       {"name": "golbo", "url": "https://ffghdfh.itch.io"}
