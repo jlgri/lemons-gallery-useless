@@ -89,18 +89,23 @@
     const copyURLBtn = document.createElement('button');
     const copyCodeBtn = document.createElement('button');
     const downloadBtn = document.createElement('button');
+    const tryBtn = document.createElement('button');
     copyURLBtn.classList.add('extension-button');
     copyURLBtn.dataset.copy = 'url';
     copyCodeBtn.classList.add('extension-button');
     copyCodeBtn.dataset.copy = 'code';
     downloadBtn.classList.add('extension-button');
     downloadBtn.dataset.copy = 'download';
+    tryBtn.classList.add('extension-button');
+    tryBtn.dataset.copy = 'try';
     copyURLBtn.textContent = 'Copy URL';
     copyCodeBtn.textContent = 'Copy Code';
     downloadBtn.textContent = 'Download';
+    tryBtn.textContent = 'Try it out!';
     btnHolder.appendChild(copyURLBtn);
     btnHolder.appendChild(copyCodeBtn);
     btnHolder.appendChild(downloadBtn);
+    btnHolder.appendChild(tryBtn);
 
     const lineBreak = document.createElement('br');
 
@@ -137,6 +142,10 @@
       };
       link.remove();
     });
+    
+    tryBtn.addEventListener('click', () => {
+      window.location.href = `https://turbowarp.org/editor?extension=${window.location.href}/${currentValue['url']}`;
+    })
 
     extension.appendChild(lineBreak);
 
