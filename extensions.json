@@ -96,7 +96,7 @@
     "img": null,
     "description": "AST creation made easier.",
     "url": "extensions/Lemon/TurboAST.js",
-    "sandboxed": true,
+    "sandboxed": false,
     "creator": [
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
     ]
