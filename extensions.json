@@ -93,7 +93,7 @@
   },
   {
     "title": "TurboAST",
-    "img": null,
+    "img": "images/Lemon/TurboAST.png",
     "description": "AST creation made easier.",
     "url": "extensions/Lemon/TurboAST.js",
     "sandboxed": false,
