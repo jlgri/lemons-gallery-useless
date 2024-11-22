@@ -90,5 +90,15 @@
     "creator": [
       {"name": "golbo", "url": "https://ffghdfh.itch.io"}
     ]
+  },
+  {
+    "title": "TurboAST",
+    "img": null,
+    "description": "AST creation made easier.",
+    "url": "extensions/Lemon/TurboAST.js",
+    "sandboxed": true,
+    "creator": [
+      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
+    ]
   }
 ]
