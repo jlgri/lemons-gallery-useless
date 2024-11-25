@@ -688,7 +688,7 @@
     sqrtWC({ INPUT }) {
       try {
         return JSON.stringify({
-          type: 'multiply',
+          type: 'sqrt',
           left: JSON.parse(INPUT),
           right: JSON.parse(INPUT),
         });
