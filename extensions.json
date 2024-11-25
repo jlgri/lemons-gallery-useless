@@ -100,5 +100,15 @@
     "creator": [
       {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
     ]
+  },
+  {
+    "title": "Waveforms",
+    "img": "images/Lemon/Waveforms.png",
+    "description": "Use real time waveform calculations in your project.",
+    "url": "extensions/Lemon/Waveforms.js",
+    "sandboxed": false,
+    "creator": [
+      {"name": "BludIsAnLemon", "url": "https://scratch.mit.edu/users/BludIsAnLemon/"}
+    ]
   }
 ]
