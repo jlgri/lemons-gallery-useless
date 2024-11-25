@@ -126,6 +126,43 @@
                 defaultValue: 1
               }
             }
+          },
+          {
+            blockType: Scratch.BlockType.LABEL,
+            text: 'Custom Waveforms'
+          },
+          {
+            opcode: 'sinecosine',
+            blockType: Scratch.BlockType.REPORTER,
+            text: 'sinecosine wave | [F0]hz',
+            arguments: {
+              F0: {
+                type: Scratch.ArgumentType.NUMBER,
+                defaultValue: 1
+              }
+            }
+          },
+          {
+            opcode: 'cosinesine',
+            blockType: Scratch.BlockType.REPORTER,
+            text: 'cosinesine wave | [F0]hz',
+            arguments: {
+              F0: {
+                type: Scratch.ArgumentType.NUMBER,
+                defaultValue: 1
+              }
+            }
+          },
+          {
+            opcode: 'eulercosine',
+            blockType: Scratch.BlockType.REPORTER,
+            text: 'eulercosine wave | [F0]hz',
+            arguments: {
+              F0: {
+                type: Scratch.ArgumentType.NUMBER,
+                defaultValue: 1
+              }
+            }
           }
         ]
       };
@@ -195,6 +232,18 @@
       const y = Math.sqrt(Scratch.Cast.toNumber(RADIUS) ** 2 - x ** 2)
       
       return phase < T / 2 ? y : -y
+    }
+    
+    sinecosine({F0}) {
+      return Math.sin(Math.cos(Scratch.Cast.toNumber(F0) * this.timer()) * Math.PI * 2);
+    }
+    
+    cosinesine({F0}) {
+      return Math.cos(Math.sin(Scratch.Cast.toNumber(F0) * this.timer()) * Math.PI * 2);
+    }
+    
+    eulercosine({F0}) {
+      return Math.cos(Scratch.Cast.toNumber(F0) * this.timer() * Math.sin(Math.E));
     }
   }
 
