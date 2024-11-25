@@ -689,8 +689,7 @@
       try {
         return JSON.stringify({
           type: 'sqrt',
-          left: JSON.parse(INPUT),
-          right: JSON.parse(INPUT),
+          left: JSON.parse(INPUT)
         });
       } catch {
         return '{"input":0}'
