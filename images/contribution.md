@@ -24,3 +24,6 @@
 
 ## Lemon/TurboAST.png
 - Made by [@BludIsAnLemon](https://scratch.mit.edu/users/BludIsAnLemon/)
+
+## Lemon/Waveforms.png
+- Made by [@BludIsAnLemon](https://scratch.mit.edu/users/BludIsAnLemon/)
