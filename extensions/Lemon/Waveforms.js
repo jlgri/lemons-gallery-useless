@@ -21,6 +21,17 @@
             }
           },
           {
+            opcode: 'cosine',
+            blockType: Scratch.BlockType.REPORTER,
+            text: 'cosine wave | [F0]hz',
+            arguments: {
+              F0: {
+                type: Scratch.ArgumentType.NUMBER,
+                defaultValue: 1
+              }
+            }
+          },
+          {
             opcode: 'semisine',
             blockType: Scratch.BlockType.REPORTER,
             text: 'semisine wave | [F0]hz',
@@ -126,6 +137,10 @@
     
     sine({F0}) {
       return Math.sin(2 * Math.PI * Scratch.Cast.toNumber(F0) * this.timer());
+    }
+    
+    cosine({F0}) {
+      return Math.cos(2 * Math.PI * Scratch.Cast.toNumber(F0) * this.timer());
     }
     
     semisine({F0}) {
