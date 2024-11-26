@@ -434,6 +434,18 @@
             extensions: ["colours_operators"]
           },
           {
+            opcode: 'expWC',
+            blockType: Scratch.BlockType.REPORTER,
+            text: 'exp ( [INPUT] )',
+            blockShape: Scratch.BlockShape.SQUARE,
+            arguments: {
+              INPUT: {
+                type: ArgumentType_SQUARE
+              }
+            },
+            extensions: ["colours_operators"]
+          },
+          {
             opcode: 'powerWC',
             blockType: Scratch.BlockType.REPORTER,
             text: '[INPUT1] ^ [INPUT2]',
@@ -578,6 +590,8 @@
           return this.evaluateToken(token.left) - this.evaluateToken(token.right);
         case 'sqrt':
           return Math.sqrt(this.evaluateToken(token.left));
+        case 'exp':
+          return Math.exp(this.evaluateToken(token.left));
         case 'power':
           return this.evaluateToken(token.left) ** this.evaluateToken(token.right);
       }
@@ -667,7 +681,7 @@
           type: 'add',
           left: JSON.parse(INPUT1),
           right: JSON.parse(INPUT2),
-        }); // :fear:
+        });
       } catch {
         return '{"input":0}'
       }
@@ -690,6 +704,17 @@
         return JSON.stringify({
           type: 'sqrt',
           left: JSON.parse(INPUT)
+        });
+      } catch {
+        return '{"input":0}'
+      }
+    }
+    
+    expWC({ INPUT }) {
+      try {
+        return JSON.stringify({
+          type: 'exp',
+          left: JSON.parse(INPUT),
         });
       } catch {
         return '{"input":0}'
