@@ -1,7 +1,7 @@
 // Name: URL Music
-// ID: golbourlmusic
+// ID: urlmusic
 // Description: Play, pause, seek, set the volume and get data about songs from URL-s!
-// By: golbo
+// By: silly software
 
 class URLMusicExtension {
     constructor() {

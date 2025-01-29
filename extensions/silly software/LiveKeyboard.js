@@ -1,7 +1,7 @@
 // Name: Live Keyboard Input
-// ID: golbolivekeyboardinput
+// ID: livekeyboardinput
 // Description: Get keyboard input from the user, as if they were typing in a textbox!
-// By: Golbo
+// By: Silly software
 
 class KeyboardInputExtension {
     constructor() {
