@@ -1,7 +1,7 @@
 // Name: IndexedDB
-// ID: golboindexeddb
+// ID: indexeddb
 // Description: Save more than 5mb of data locally!
-// By: golbo
+// By: silly software
 
 (function (Scratch) {
   "use strict";
