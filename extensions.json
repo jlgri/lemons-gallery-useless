@@ -78,7 +78,7 @@
     "url": "extensions/silly software/URL_music.js",
     "sandboxed": true,
     "creator": [
-      {"name": "golbo", "url": "https://sillysoftware.lol"}
+      {"name": "silly software", "url": "https://sillysoftware.lol"}
     ]
   },
   {
@@ -88,7 +88,7 @@
     "sandboxed": false,
     "url": "extensions/silly software/IndexedDB.js",
     "creator": [
-      {"name": "golbo", "url": "https://sillysoftware.lol"}
+      {"name": "silly software", "url": "https://sillysoftware.lol"}
     ]
   },
   {
