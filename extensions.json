@@ -83,7 +83,7 @@
   },
   {
     "title": "IndexedDB",
-    "img": "images/golbo/indexedDB.png",
+    "img": "images/silly software/indexedDB.png",
     "description": "Save more than 5mb of data locally!",
     "sandboxed": false,
     "url": "extensions/silly software/IndexedDB.js",
